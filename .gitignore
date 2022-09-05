@@ -1,0 +1,10 @@
+vendor/
+composer.lock
+phpunit.xml
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+*/*/*/.DS_Store
+tests/bin
+tests/Unit/SampleTest.php
+tests/composer.json
