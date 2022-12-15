@@ -36,5 +36,10 @@
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true
         }
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "cp vendor/dmitryrechkin/php-standard/php-standard.xml phpcs.xml"
+        ]
     }
 }

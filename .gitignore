@@ -8,3 +8,4 @@ phpunit.xml
 tests/bin
 tests/Unit/SampleTest.php
 tests/composer.json
+phpcs.xml

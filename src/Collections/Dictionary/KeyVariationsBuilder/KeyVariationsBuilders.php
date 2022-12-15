@@ -23,9 +23,9 @@ class KeyVariationsBuilders implements KeyVariationsBuilderInterface
 	 * Adds key variations to collection.
 	 *
 	 * @param KeyVariationsBuilderInterface $builder
-	 * @return self
+	 * @return KeyVariationsBuilders
 	 */
-	public function add(KeyVariationsBuilderInterface $builder): self
+	public function add(KeyVariationsBuilderInterface $builder): KeyVariationsBuilders
 	{
 		$this->builders[] = $builder;
 		return $this;
